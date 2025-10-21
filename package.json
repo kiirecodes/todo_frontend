@@ -1,4 +1,6 @@
 {
+  "homepage":".",
+  "proxy":"https://todo-app-submission.onrender.com",
   "name": "todo-frontend",
   "version": "1.0.0",
   "private": true,
