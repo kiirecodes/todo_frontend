@@ -78,6 +78,7 @@ export default function App(){
   const completedCount = tasks.filter(t=>t.completed).length;
 
   return (
+   <>
     <div className="app-shell">
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-3">
@@ -121,5 +122,6 @@ export default function App(){
       </div>
     </div>
     <Footer />
+   </>
   );
 }
