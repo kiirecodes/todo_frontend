@@ -3,7 +3,7 @@ import axios from 'axios';
  Use REACT_APP_API_URL environment variable in production (set by Vercel).
  Falls back to localhost for development.
 */
-const BASE = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/';
+const BASE = process.env.REACT_APP_API_URL || 'https://todo-app-submission.onrender.com';
 const API = axios.create({
   baseURL: BASE,
   withCredentials: true,
